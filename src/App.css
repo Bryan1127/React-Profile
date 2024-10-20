@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/* App.css */
+
+body {
+  background-color: #0E1E4A; /* Dark blue background */
+  color: white; /* White text for better contrast */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #1E3C72; /* Darker blue for the navbar */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar .nav-link {
+  color: #FFCC00; /* Yellow color for nav links */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar .nav-link:hover {
+  color: #FF3D00; /* Bright red on hover */
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, h2 {
+  color: #FF3D00; /* Red for headings */
+}
+
+button {
+  background-color: #FF3D00; /* Red for buttons */
+  border: none;
+}
+
+button:hover {
+  background-color: #FFCC00; /* Yellow on button hover */
+}
+
+/* Form inputs */
+.form-control {
+  background-color: #1E3C72; /* Dark blue for inputs */
+  color: white; /* White text for inputs */
+}
+
+.form-control:focus {
+  border-color: #FFCC00; /* Yellow border on focus */
+  background-color: #1E3C72; /* Keep dark background on focus */
 }
